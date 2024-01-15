@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/artemiy/ontologies/2023/9/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/artemiy/ontologies/2023/9/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/artemiy/ontologies/2023/9/untitled-ontology-10/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#astroneer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fortheking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hoi4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#humanfallflat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lostcastle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#offline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#online"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smc5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Андрей"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Артемий"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вадим"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ваня"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Владислав"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Илья"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Кирилл"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Костя"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Никита"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Родион"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Рома"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Саша"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#astroneer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#cs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#dst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#hoi4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#humanfallflat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#lostcastle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Status"/>
+        <NamedIndividual IRI="#offline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Status"/>
+        <NamedIndividual IRI="#online"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#smc5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Андрей"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Артемий"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Вадим"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Ваня"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Владислав"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Илья"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Кирилл"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Костя"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Никита"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Родион"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Рома"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Андрей"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Андрей"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Андрей"/>
+        <NamedIndividual IRI="#hoi4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Андрей"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Вадим"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Ваня"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Илья"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Кирилл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Костя"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Никита"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Родион"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Рома"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#astroneer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#dst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#hoi4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#humanfallflat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#lostcastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Артемий"/>
+        <NamedIndividual IRI="#smc5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Вадим"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Вадим"/>
+        <NamedIndividual IRI="#astroneer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Вадим"/>
+        <NamedIndividual IRI="#dst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Ваня"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Ваня"/>
+        <NamedIndividual IRI="#astroneer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Ваня"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Ваня"/>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Владислав"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Владислав"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#Кирилл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#Никита"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#Родион"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#dst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Илья"/>
+        <NamedIndividual IRI="#lostcastle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#hoi4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Кирилл"/>
+        <NamedIndividual IRI="#smc5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#Кирилл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#Никита"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Костя"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#Владислав"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#Кирилл"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#Саша"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#dst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#humanfallflat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Никита"/>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Родион"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Родион"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Родион"/>
+        <NamedIndividual IRI="#dst"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#Андрей"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#Вадим"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#astroneer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#humanfallflat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Рома"/>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Status"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#offline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#cs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#fortheking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#hoi4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#phasmophobia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#seaofthieves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_game"/>
+        <NamedIndividual IRI="#Саша"/>
+        <NamedIndividual IRI="#smc5"/>
+    </ObjectPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Status"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#friends"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#have_game"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Status"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#friends"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_game"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Status"/>
+        <Class IRI="#Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#friends"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_game"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
